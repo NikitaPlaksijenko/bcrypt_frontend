@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+Div.Wrapper{
+  margin:0; height:100% ; background-color:white; 
+
+}
+
+Div {
+   margin: 0; width:100%; height:50%; background-color:rgb(246, 245, 247);text-align:center; 
+}
+
+
+table {
+  height:60%; width:100%; background-color:rgb(255, 255, 255);
+}
+.mypage {
+  height:60%; width:100%; background-color:rgb(48, 46, 46);
+}
+#title{
+  color:white;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-body {
+  max-height:1000px; 
+  overflow-y: auto;
+}
+
+.modal-footer {
+  max-height:100px; 
+  overflow-y: auto;
+  display : none;
+}
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
